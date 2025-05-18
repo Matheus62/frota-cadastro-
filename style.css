@@ -1,0 +1,244 @@
+
+body{
+    font-family: inter;
+    background-color: #D9D9D9;
+    font-size: 20px;
+}
+
+/* NavBar */
+
+nav{
+    background-image: linear-gradient(to right, #007B31,#084621,#101010);
+}
+.navbar-brand{
+    font-family: italianno;
+    font-size: 45px;
+    color: white;
+}
+.nav-link{
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+}
+
+.nav-link:hover{
+    font-weight: 300;
+    color: rgb(179, 255, 128);
+}
+
+/* Corpo */
+
+.principal {
+    background: linear-gradient(to right,#101010, #10101000), url(imagens/img1.jpg);
+    color: white;
+    text-align: left;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.principal h1{
+    font-size: 90px;
+    font-weight: bold;
+    text-shadow: 0.3rem 0.3rem #10101096;
+}
+
+.principal p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: justify;
+    width: 500px;
+}
+
+.principal a{
+    font-size: 25px;
+    width: 400px;
+    font-weight: bold;
+}
+
+.feature-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 40px;
+}
+
+#footer{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icone{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+/* Fale conosco*/
+#tituloArti01{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#bloco01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+iframe {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+}
+
+#contatos {
+    max-width: 400px;
+    text-align: left;
+}
+
+#contatos #p {
+    margin-bottom: 15px;
+}
+
+#contatos p {
+    margin: 5px;
+}
+
+#contatos .item p:first-child {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+#idEstrelas {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 90px;
+    
+}
+#idEstrelas img{
+    width: 50px;
+}
+/*Duvidas frequentes*/
+#divTituloArti02{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#perguntas{
+    background-color: #ACABAB;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#perguntas div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+#perguntas div:hover{
+    cursor: pointer;
+}
+#perguntas .resposta {
+    display: none;
+    padding: 10px 0;
+    color: #333;
+}
+#idEmail{
+    text-align: center;
+    padding: 20px;
+}
+.email {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    justify-content: center;
+}
+
+/*Feedback*/
+#divTituloArti03{
+    text-align: center;
+    font-size: 1.4em;
+    padding: 10px;
+}
+#feedback{
+    margin: 50px;
+}
+.nome p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.mensagem{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    height: 90px;
+}
+.mensagem p{
+    padding: 20px; 
+    margin: 0px;
+}
+
+.principal #cadentry{
+    color: white;
+    background-color: #007B31;
+    border: solid 2px #007B31;
+    border-radius: 5px;
+    text-align: center;
+}
+.cadastro {
+    background: linear-gradient(to right,#101010, #10101000), url(imagens/img3.jpg);
+    color: white;
+    text-align: left;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+    background-size: cover;
+}
+#formcliente{
+    color: #007B31;
+    background-color: rgba(129, 129, 129, 0.712);
+    margin: 0 auto;
+    justify-content: center;
+    border: solid 2px #007B31;
+    border-radius: 10%;
+    text-align: center;
+}
+#formcliente a{
+    color: white;
+    background-color: #007B31;
+    border: solid 2px #007B31;
+    border-radius: 15%;
+    text-align: center;
+}
+.conta a{
+    border:solid 1px #084621;
+    color:white;
+    background-color: #084621;
+}
